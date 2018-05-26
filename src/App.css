@@ -1,0 +1,24 @@
+button {
+  width: 100px;
+  height: 45px;
+  border-radius: 14px;
+  font-size: 14px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+button:focus {
+  outline: none;
+}
+
+[data-toggle="active"] {
+  border: 1px solid green;
+  color: green;
+  
+}
+[data-toggle="inactive"] {
+  border: 1px solid #c62828;
+  color: #c62828;
+  
+}
